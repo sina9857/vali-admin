@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/PurTahan/vali-admin/issues"
   },
-  "homepage": "http://PurTahan.IR"
+  "homepage": "http://PurTahan.IR",
+  "dependencies": {
+    "opn": "^5.3.0"
+  }
 }

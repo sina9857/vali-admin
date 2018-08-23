@@ -45,3 +45,5 @@ http.createServer(function(request, response) {
 }).listen(parseInt(port, 10));
 
 console.log("Server is running on http://localhost:" + port );
+var opn = require('opn');
+opn('http://localhost:' + port);
