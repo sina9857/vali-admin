@@ -13637,7 +13637,7 @@ be a descendant of the grid when it is being dragged.
           flex: 1 0 auto;
   color: #fff;
   text-align: center;
-  font-family: 'Niconne';
+  font-family: 'IRANSans';
   padding: 0 15px;
   font-size: 26px;
   font-weight: 400;
@@ -15045,7 +15045,7 @@ be a descendant of the grid when it is being dragged.
 
 .login-content .logo {
   margin-bottom: 40px;
-  font-family: "Niconne";
+  font-family: "IRANSans";
   color: #fff;
 }
 
@@ -15161,7 +15161,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 .lockscreen-content .logo {
-  font-family: "Niconne";
+  font-family: "IRANSans";
   margin-bottom: 40px;
   color: #fff;
 }
