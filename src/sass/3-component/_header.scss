@@ -148,6 +148,6 @@
 	margin-bottom: 0;
 }
 
-.app-notification__icon { padding-right: 10px; }
+.app-notification__icon { padding-left: 10px; }
 .app-notification__message { line-height: 1.2; }
-.app-notification__meta { @extend .text-muted; }
+.app-notification__meta { @extend .text-muted; text-align: right; }

@@ -123,7 +123,7 @@
 .treeview-item {
 	display: flex;
 	align-items: center;
-	padding: 5px 5px 5px 20px;
+	padding: 5px 20px 5px 5px;
 	font-size: 1em;
 	@if $sidebar-accent == dark { color: $sidebar-dark-link-color }
 	@if $sidebar-accent == light { color: $sidebar-light-link-color }

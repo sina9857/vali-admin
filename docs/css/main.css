@@ -13832,11 +13832,15 @@ be a descendant of the grid when it is being dragged.
 }
 
 .app-notification__icon {
-  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .app-notification__message {
   line-height: 1.2;
+}
+
+.app-notification__meta {
+  text-align: right;
 }
 
 .app-sidebar {
@@ -13988,7 +13992,7 @@ be a descendant of the grid when it is being dragged.
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 5px 5px 5px 20px;
+  padding: 5px 20px 5px 5px;
   font-size: 1em;
   color: #fff;
 }
