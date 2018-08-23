@@ -17,17 +17,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pratikborsadiya/vali-admin.git"
+    "url": "git+https://github.com/PurTahan/vali-admin.git"
   },
   "keywords": [
     "admin",
     "dashboard",
     "theme"
   ],
-  "author": "Pratik Borsadiya",
+  "author": "PurTahan.IR",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pratikborsadiya/vali-admin/issues"
+    "url": "https://github.com/PurTahan/vali-admin/issues"
   },
-  "homepage": "http://pratikborsadiya.in/blog/vali-admin"
+  "homepage": "http://PurTahan.IR"
 }
