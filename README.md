@@ -1,37 +1,22 @@
-# Vali Admin
+# قالب مدیریت رایگان ولی
 
-![vali-admin](http://pratikborsadiya.in/blog/vali-admin/vali-admin-banner.gif)
+![قالب مدیریت ولی](http://pratikborsadiya.in/blog/vali-admin/vali-admin-banner.gif)
+&#x202b; این تصاویر مربوط به نسخه اصلی پروژه می‌باشد.
 
-[![npm version](https://badge.fury.io/js/vali-admin.svg)](https://badge.fury.io/js/vali-admin)
+&#x202b;ولی یک قالب مدیریت رایگان واکنش‌گرا است که با [بوت‌استرپ 4](https://getbootstrap.com)، [SASS](http://sass-lang.com) و [Pug.js](https://pugjs.org) ساخته شده که کاملا تغییر پذیر و ماژولار است
 
-Vali is a free, modular and easy to customize admin theme built using [Bootstrap 4](https://getbootstrap.com), [SASS](http://sass-lang.com) and [Pug.js](https://pugjs.org).
+## تذکر
+&#x202b; این نسخه فارسی شده پروژه [Vali-Admin](https://github.com/pratikborsadiya/vali-admin) است. جهت بررسی توضیحات بیشتر به آنجا رجوع کنید.
 
-## Getting started
+&#x202b; جهت استفاده از فونت ایران‌سنس، پس از خرید آن محتوای پوشه‌ی `\WebFonts\fonts` را در مسیر `\docs\fonts` پروژه کپی کنید.
 
-Run a `npm install` command in project root directory to install and build dependencies. If you don't want to edit theme you can use the compiled files inside `docs` folder.
+&#x202b; جهت استفاده از نسخه آماده، از محتویات پوشه `docs` استفاده کنید.
 
-Use `npm run dev` command to watch and compile source files.
+## مشارکت کننده‌گان
 
-Use `npm run build` command to compile all source files.
-
-Use `npm run start` command to start a development server using NodeJs.
-
-> **Note:**
-> * The NodeJs server mentioned in `npm run start` command is for development purpose only. DONOT use it as a production server.
-
-## Customization
-For more information about customizing theme colors please follow the official [documentation](http://pratikborsadiya.in/blog/vali-admin/).
-
-## RTL Support
-Please follow the official [documentation](http://pratikborsadiya.in/blog/vali-admin/) to enable RTL support.
-
-## Contributing
-Please take a look at [contributing guidelines](CONTRIBUTING.md) if you are considering contributing to the repository.
-
-## Contributors
-
-* **[Pratik Borsadiya](http://pratikborsadiya.in)** - *Project Author*
-* **List of [contributors](https://github.com/pratikborsadiya/vali-admin/graphs/contributors)** who participated in this project.
+* **[Pratik Borsadiya](http://pratikborsadiya.in)** - *سازنده نسخه اصلی*
+* **[پورطاهان](http://PurTahan.IR)** - *ویراستار این نسخه*
+* **لیست همه [مشارکت کننده‌گان](https://github.com/PurTahan/vali-admin/graphs/contributors)** 
 
 ## License
 
