@@ -1,59 +1,59 @@
 doctype html
-html
+html(lang="fa-IR", dir="rtl")
 	head
 		include includes/_head.pug
-		title Login - Vali Admin
+		title ورود | ولی
 
 	body
 		section.material-half-bg
 			.cover
 
 		section.login-content
-			.logo: h1 Vali
+			.logo: h1 ولی
 
 			.login-box
 				form.login-form(action="index.html")
 					h3.login-head
 						i.fa.fa-lg.fa-fw.fa-user
-						| SIGN IN
+						| ورود
 					.form-group
-						label.control-label USERNAME
-						input.form-control(type="text", placeholder="Email", autofocus)
+						label.control-label نام کاربری
+						input.form-control(type="text", placeholder="نام کاربری", autofocus)
 
 					.form-group
-						label.control-label PASSWORD
-						input.form-control(type="password", placeholder="Password")
+						label.control-label کلمه عبور
+						input.form-control(type="password", placeholder="کلمه عبور")
 
 					.form-group
 						.utility
 							.animated-checkbox
 								label
 									input(type="checkbox")
-									span.label-text Stay Signed in
+									span.label-text مرا به خاطرت نگهدار
 							p.semibold-text.mb-2
-								a(href="#" data-toggle="flip") Forgot Password ?
+								a(href="#" data-toggle="flip") کلمه عبورتو فراموش کردی؟
 
 					.form-group.btn-container
 						button.btn.btn-primary.btn-block
 							i.fa.fa-sign-in.fa-lg.fa-fw
-							| SIGN IN
+							| ورود
 
 				form.forget-form(action="index.html")
 					h3.login-head
 						i.fa.fa-lg.fa-fw.fa-lock
-						| Forgot Password ?
+						| کلمه عبورتو فراموش کردی؟
 					.form-group
-						label.control-label EMAIL
-						input.form-control(type="text", placeholder="Email")
+						label.control-label شماره موبایل
+						input.form-control(type="text", placeholder="شماره موبایل")
 
 					.form-group.btn-container
 						button.btn.btn-primary.btn-block
 							i.fa.fa-unlock.fa-lg.fa-fw
-							| RESET
+							| ریست
 
 					.form-group.mt-3
 						p.semibold-text.mb-0
-							a(href="#" data-toggle="flip") <i class="fa fa-angle-left fa-fw"></i> Back to Login
+							a(href="#" data-toggle="flip") <i class="fa fa-angle-left fa-fw"></i> برگشت به صفحه ورود
 
 		include includes/_javascript.pug
 
