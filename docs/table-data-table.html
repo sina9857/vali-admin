@@ -131,7 +131,7 @@
         <div class="col-md-12">
           <div class="tile">
             <div class="tile-body">
-              <table class="table table-hover table-bordered" id="sampleTable">
+              <table class="table table-hover table-bordered dataTable" id="sampleTable">
                 <thead>
                   <tr>
                     <th>Name</th>
@@ -610,13 +610,50 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="js/plugins/pace.min.js"></script>
+    <script src="js/main.js"></script>
     <!-- Page specific javascripts-->
     <!-- Data table plugin-->
     <script type="text/javascript" src="js/plugins/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="js/plugins/dataTables.bootstrap.min.js"></script>
-    <script type="text/javascript">$('#sampleTable').DataTable();</script>
+    <script type="text/javascript">
+      //- $('#sampleTable').DataTable();
+      $('.dataTable').DataTable({
+      	"language": {
+      		"sEmptyTable": "هیچ داده ای در جدول وجود ندارد",
+      		"sInfo": "نمایش _START_ تا _END_ از _TOTAL_ رکورد",
+      		"sInfoEmpty": "نمایش 0 تا 0 از 0 رکورد",
+      		"sInfoFiltered": "(فیلتر شده از _MAX_ رکورد)",
+      		"sInfoPostFix": "",
+      		"sInfoThousands": ",",
+      		"sLengthMenu": "نمایش _MENU_ رکورد",
+      		"sLoadingRecords": "در حال بارگزاری...",
+      		"sProcessing": "در حال پردازش...",
+      		"sSearch": "جستجو:",
+      		"sZeroRecords": "رکوردی با این مشخصات پیدا نشد",
+      		"oPaginate": {
+      			"sFirst": "ابتدا",
+      			"sLast": "انتها",
+      			"sNext": "بعدی",
+      			"sPrevious": "قبلی"
+      		},
+      		"oAria": {
+      			"sSortAscending": ": فعال سازی نمایش به صورت صعودی",
+      			"sSortDescending": ": فعال سازی نمایش به صورت نزولی"
+      		}
+      	},
+      	columnDefs: [
+      		{ orderable: false, targets: -1 }
+      	],
+      	"order": [],
+      	stateSave: true
+      }).api().columns().every(function () {
+      	var that = this;
+      	$('input', this.footer()).on('keyup change', function () {
+      		that.search(this.value).draw();
+      	});
+      });
+    </script>
   </body>
 </html>
