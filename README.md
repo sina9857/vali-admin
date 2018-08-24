@@ -1,4 +1,5 @@
 # قالب مدیریت رایگان ولی
+**[پیش‌نمایش قالب ولی](https://purtahan.github.io/vali-admin)**
 
 ![قالب مدیریت ولی](http://pratikborsadiya.in/blog/vali-admin/vali-admin-banner.gif)
 &#x202b; این تصاویر مربوط به نسخه اصلی پروژه می‌باشد.
