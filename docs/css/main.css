@@ -2218,13 +2218,13 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .form-check {
   position: relative;
   display: block;
-  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .form-check-input {
   position: absolute;
   margin-top: 0.3rem;
-  margin-left: -1.25rem;
+  margin-right: -1.25rem;
 }
 
 .form-check-input:disabled ~ .form-check-label {
@@ -3292,7 +3292,7 @@ input[type="button"].btn-block {
   display: inline-block;
   width: 0;
   height: 0;
-  margin-left: 0.255em;
+  margin-right: 0.255em;
   vertical-align: 0.255em;
   content: "";
   border-top: 0.3em solid;
@@ -3341,7 +3341,7 @@ input[type="button"].btn-block {
   display: inline-block;
   width: 0;
   height: 0;
-  margin-left: 0.255em;
+  margin-right: 0.255em;
   vertical-align: 0.255em;
   content: "";
   border-top: 0;
@@ -3366,7 +3366,7 @@ input[type="button"].btn-block {
   display: inline-block;
   width: 0;
   height: 0;
-  margin-left: 0.255em;
+  margin-right: 0.255em;
   vertical-align: 0.255em;
   content: "";
   border-top: 0.3em solid transparent;
@@ -3395,7 +3395,7 @@ input[type="button"].btn-block {
   display: inline-block;
   width: 0;
   height: 0;
-  margin-left: 0.255em;
+  margin-right: 0.255em;
   vertical-align: 0.255em;
   content: "";
 }
@@ -3408,7 +3408,7 @@ input[type="button"].btn-block {
   display: inline-block;
   width: 0;
   height: 0;
-  margin-right: 0.255em;
+  margin-left: 0.255em;
   vertical-align: 0.255em;
   content: "";
   border-top: 0.3em solid transparent;
@@ -3546,14 +3546,14 @@ input[type="button"].btn-block {
 
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .btn-group > .btn:not(:first-child),
 .btn-group > .btn-group:not(:first-child) > .btn {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .dropdown-toggle-split {
@@ -3770,8 +3770,8 @@ input[type="button"].btn-block {
 .input-group > .input-group-append:not(:last-child) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .input-group > .input-group-append > .btn,
@@ -3780,8 +3780,8 @@ input[type="button"].btn-block {
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
 .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .custom-control {
@@ -4987,7 +4987,7 @@ input[type="button"].btn-block {
 
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
-  padding-right: 0.5rem;
+  padding-left: 0.5rem;
   color: #6c757d;
   content: "/";
 }
@@ -5045,13 +5045,13 @@ input[type="button"].btn-block {
 
 .page-item:first-child .page-link {
   margin-left: 0;
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 
 .page-item:last-child .page-link {
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
 }
 
 .page-item.active .page-link {
@@ -14336,7 +14336,7 @@ be a descendant of the grid when it is being dragged.
   -webkit-font-smoothing: antialiased;
   width: 1em;
   display: inline-block;
-  margin-right: 2px;
+  margin-left: 2px;
   vertical-align: -2px;
 }
 
@@ -14381,7 +14381,7 @@ be a descendant of the grid when it is being dragged.
   -webkit-font-smoothing: antialiased;
   width: 1em;
   display: inline-block;
-  margin-right: 2px;
+  margin-left: 2px;
   vertical-align: -2px;
 }
 
@@ -14846,8 +14846,8 @@ be a descendant of the grid when it is being dragged.
 }
 
 .messanger .messages .message.me img {
-  margin-right: 0;
-  margin-left: 15px;
+  margin-left: 0;
+  margin-right: 15px;
 }
 
 .messanger .messages .message.me .info {
@@ -14861,7 +14861,7 @@ be a descendant of the grid when it is being dragged.
 
 .messanger .messages .message.me .info:after {
   position: absolute;
-  right: -13px;
+  left: -13px;
   top: 0;
   content: "";
   width: 0;
@@ -14869,14 +14869,11 @@ be a descendant of the grid when it is being dragged.
   border-style: solid;
   border-width: 0 16px 16px 0;
   border-color: transparent #4CAF50 transparent transparent;
-  -webkit-transform: rotate(270deg);
-      -ms-transform: rotate(270deg);
-          transform: rotate(270deg);
 }
 
 .messanger .messages .message img {
   border-radius: 50%;
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .messanger .messages .message .info {
@@ -14891,7 +14888,7 @@ be a descendant of the grid when it is being dragged.
 
 .messanger .messages .message .info:before {
   position: absolute;
-  left: -14px;
+  right: -14px;
   top: 0;
   content: "";
   width: 0;
@@ -14899,6 +14896,9 @@ be a descendant of the grid when it is being dragged.
   border-style: solid;
   border-width: 0 16px 16px 0;
   border-color: transparent #ddd transparent transparent;
+  -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+          transform: rotate(270deg);
 }
 
 .messanger .sender {
