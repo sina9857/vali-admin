@@ -24,5 +24,6 @@
 	//Activate bootstrip tooltips
 	$("[data-toggle='tooltip']").tooltip();
 
-
+    //Activate Current Link
+    $('a[href="' + document.location.pathname + '"]').addClass('active').parents('li.treeview').addClass('is-expanded');
 })();
