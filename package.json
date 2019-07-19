@@ -4,7 +4,7 @@
   "description": "An admin theme built with Bootstrap, sass and PugJs",
   "devDependencies": {
     "autoprefixer": "^7.2.6",
-    "grunt": "^1.0.3",
+    "grunt": "^1.0.4",
     "grunt-contrib-pug": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-postcss": "^0.8.0",
