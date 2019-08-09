@@ -22,8 +22,14 @@
 	$("[data-toggle='treeview.'].is-expanded").parent().toggleClass('is-expanded');
 
 	//Activate bootstrip tooltips
-	$("[data-toggle='tooltip']").tooltip();
+    $("[data-toggle='tooltip']").tooltip();
 
-    //Activate Current Link
-    $('a[href="' + document.location.pathname + '"]').addClass('active').parents('li.treeview').addClass('is-expanded');
+	//Activate Current Link
+    $("a[href='" + document.location.pathname + "']").addClass('active').parents('li.treeview').addClass('is-expanded');
+
+    $(".app-menu").find('a').each(function () {
+        if (document.location.pathname.startsWith($(this).attr("href"))) {
+            $(this).addClass('active').parents('li.treeview').addClass('is-expanded');
+        }
+    });
 })();
